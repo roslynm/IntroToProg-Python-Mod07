@@ -1,8 +1,6 @@
 # Module 7 Assignment
-- Code file:
-  [Assignment 7 Code] https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.py
-- Documentation of work:
-  [Assignment 7 Document]https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.pdf
+- Code file:[Assignment 7 Code]https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.py
+- Documentation of work:[Assignment 7 Document]https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.pdf
   
 ## Script Background
 In this assignment, I created a script that allows the user to enter in the day's temperature and dew point temperature in Fahrenheit. This data can be easily looked up on any typical weather website. The script uses this information to output the saturated vapor pressure, actual vapor pressure and relative humidty. 
