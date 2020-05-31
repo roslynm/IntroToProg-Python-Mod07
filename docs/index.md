@@ -63,23 +63,23 @@ It is very important to note that when pickling multiple objects, the order coun
 
 Taking pickling one step further, we can add the shelf module.  The shelve module allows you to store and randomly access pickled objects in a file. Using the shelve module, it acts like a dictionary that lets you access its components. In the example below, I show you the same program but instead of storing the weather data into a dictionary and pickling the dictionary, I shelve them as separate variables. In Figure 8, you can see that in the function where I am shelving all the variables, I am shelving them similar to how I created my original dictionary, dictWeather. In the function in which I am loading data from the file, you can see that I am randomly accessing just the relative humidity. 
 
-![Figure 8. Example of shelving data] (https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure8.png "Figure 8. Example of shelving data")
+![Figure 8. Example of shelving data](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure8.png "Figure 8. Example of shelving data")
 
 Figure 8. Example of shelving data
 
-I used [THIS] stack overflow page (https://stackoverflow.com/questions/4103430/what-is-the-difference-between-pickle-and-shelve) to better understand the difference between pickling and shelving. I think this website gave good examples of how the modules are used differently. I tried to show this difference in my assignment 7 example.
+I used [THIS](https://stackoverflow.com/questions/4103430/what-is-the-difference-between-pickle-and-shelve) stack overflow page to better understand the difference between pickling and shelving. I think this website gave good examples of how the modules are used differently. I tried to show this difference in my assignment 7 example.
 
 ## Error Handling
 
 Up until this point, if there was an error in our program, the script would stop running and provide an error message. In python, you have capability to handle these errors in a more graceful way. What I mean by that is providing an error message that is easier to understand for the user. In Figure 9, you can see that I have added error handling to the temperature input functions. I have this set up such that it will keep prompting user to input a temperature if they try and enter a string instead of a number.
 
-![Figure 9. Error Handling] (https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure9.png "Figure 9. Error Handling")
+![Figure 9. Error Handling](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure9.png "Figure 9. Error Handling")
 
 Figure 9. Error Handling 
 
 Note that in the example above, I printed the value “e”. Whenever an exception occurs, it is associated with a value (argument). You can capture this argument and print it to the user if you by using the word “as” after the exception.  In Figure 10, you can see I used the general exception to catch the error. You can create multiple except statements to try and catch different types of errors. 
 
-![Figure 10. General exception example] (https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure10.png "Figure 10. General exception example")
+![Figure 10. General exception example](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure10.png "Figure 10. General exception example")
 
 Figure 10. General exception example
 
