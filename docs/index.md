@@ -4,9 +4,9 @@ In this assignment, I created a script that allows the user to enter in the day'
 
 *What do these values mean?*
 
-*Actual Vapor Pressure-->Actual vapor pressure is a measurement of the amount of water vapor in a volume of air and increases as the amount of water vapor increases. *
+*Actual Vapor Pressure-->Actual vapor pressure is a measurement of the amount of water vapor in a volume of air and increases as the amount of water vapor increases.*
 
-*saturated vapor pressure-->as many molecules returning to the liquid as there are escaping. At this point the vapor is said to be saturated.*
+*Saturated Vapor Pressure-->as many molecules returning to the liquid as there are escaping. At this point the vapor is said to be saturated.*
 
 *Relative humidity-->the ratio of the actual to the saturation vapor pressure.*
 
