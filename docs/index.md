@@ -25,7 +25,7 @@ Pickling allows you to save files in binary format instead of plain text. Storin
 
 For this assignment, I have created a script that asks the user to input today’s temperature and dew point temperature in Fahrenheit. The script then runs through some functions that convert the temperature to Celsius, then calculates the saturated vapor pressure, actual vapor pressure, and relativity humidity. In Figure 1, you will see the main script of the function. Figure 2 and 3 show the functions that gather input from the user, then process that data. 
 
-[Figure 1. Main body of script ]<https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure1.png>
+![Figure 1. Main body of script](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure1.png "Figure 1")
 
 
 
