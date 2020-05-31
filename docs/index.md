@@ -26,7 +26,7 @@ In this module, we continue to work with functions and continue to work with rea
 Pickling allows you to save files in binary format instead of plain text. Storing in binary obscures the files content and can reduce file size. In order to use pickling functionality, you must first import the pickle module. The pickle module allows you to pickle and store more complex data in a file. When writing to a file, you simply write the pickled object to the file. Pickled objects have to be stored as a binary file. They cannot be stored in a text file. 
 
 For this assignment, I have created a script that asks the user to input today’s temperature and dew point temperature in Fahrenheit. The script then runs through some functions that convert the temperature to Celsius, then calculates the saturated vapor pressure, actual vapor pressure, and relativity humidity. In Figure 1, you will see the main script of the function. Figure 2 and 3 show the functions that gather input from the user, then process that data. 
-
+[Figure 1. Main body of script ]https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure1.png
 
 
 
