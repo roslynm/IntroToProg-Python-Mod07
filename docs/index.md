@@ -1,6 +1,6 @@
 # Module 7 Assignment
-- Code file:[Assignment 7 Code](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.py)
-- Documentation of work:[Assignment 7 Document](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.pdf)
+- Code file: [Assignment 7 Code](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.py)
+- Documentation of work: [Assignment 7 Document](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Assignment07.pdf)
   
 ## Script Background
 In this assignment, I created a script that allows the user to enter in the day's temperature and dew point temperature in Fahrenheit. This data can be easily looked up on any typical weather website. The script uses this information to output the saturated vapor pressure, actual vapor pressure and relative humidty. 
@@ -26,8 +26,22 @@ Pickling allows you to save files in binary format instead of plain text. Storin
 For this assignment, I have created a script that asks the user to input today’s temperature and dew point temperature in Fahrenheit. The script then runs through some functions that convert the temperature to Celsius, then calculates the saturated vapor pressure, actual vapor pressure, and relativity humidity. In Figure 1, you will see the main script of the function. Figure 2 and 3 show the functions that gather input from the user, then process that data. 
 
 ![Figure 1. Main body of script](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure1.png "Figure 1")
+
 Figure 1. Main body of script
 ![Figure 2. Functions that gather input from users and prints data back out](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure2.png "Figure 2. Functions that gather input from users and prints data back out")
+
+Figure 2. Functions that gather input from users and prints data back out
+![Figure 3. Functions that calculate temperature in Celsius, the saturated vapor pressure, the actual vapor pressure, and the relativity humidity](https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure3.png "Figure 3. Functions that calculate temperature in Celsius, the saturated vapor pressure, the actual vapor pressure, and the relativity humidity"
+
+Figure 3. Functions that calculate temperature in Celsius, the saturated vapor pressure, the actual vapor pressure, and the relativity humidity
+
+In Figure 4, below, you can see the script running in PyCharm.
+![Figure 4. Running script in PyCharm(https://github.com/roslynm/IntroToProg-Python-Mod07/blob/master/Photos/Figure4.png "Figure 4. Running script in PyCharm")
+
+Figure 4. Running script in PyCharm
+
+In the first run of this script, I will pickle the dictionary of weather data, dictWeather into the file. I will then load the dictionary object back from the file. You can see the functions that are executing in order to dump and load a dictionary into the file in Figure 5. In Figure 6, you can see that the data is dumped into a file. 
+
 
 
 
